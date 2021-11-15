@@ -130,10 +130,6 @@ issues:
       text: "unnecessaryDefer:"
 
 run:
-  #  build-tags:
-  #    - unit
-  #  skip-dirs:
-  #    - tilt_modules
   skip-files:
     - debezium/client_mock.go
 
